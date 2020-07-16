@@ -19,3 +19,6 @@ O objetivo do JSON2CSV é converter um texto no formato JSON para CSV. Ele permi
 -   [ ] O usuário pode ver o CSV convertido em outra caixa de texto
 -   [ ] O usuário pode ver uma mensagem de aviso se a caixa de texto JSON estiver vazia ou se não contiver um JSON válido
 -   [ ] O usuário pode clicar no botão 'Limpar' para limpar o conteúdo das caixas de texto JSON e CSV.
+
+-  [ ] Pense em algumas validações (como o usuário pode quebrar seu sistema)
+-  [ ] Exibir o resultado em uma tabela
