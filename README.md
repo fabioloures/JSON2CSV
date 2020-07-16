@@ -6,11 +6,16 @@ json2csv
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+O objetivo do JSON2CSV é converter um texto no formato JSON para CSV. Ele permite o usuário colar um texto JSON em uma caixa de texto para gerar seu CSV equivalente.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Restrições ###
+- Sem usar nenhuma biblioteca ou pacote para executar esse tipo de conversão.
+- Estruturas JSON aninhadas não precisam ser suportadas.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## User Stories
+-   [ ] O usuário pode colar um JSON em uma caixa de texto
+-   [ ] O usuário pode clicar no botão 'Converter' para validar o JSON e convertê-lo em CSV
+-   [ ] O usuário pode ver o CSV convertido em outra caixa de texto
+-   [ ] O usuário pode ver uma mensagem de aviso se a caixa de texto JSON estiver vazia ou se não contiver um JSON válido
+-   [ ] O usuário pode clicar no botão 'Limpar' para limpar o conteúdo das caixas de texto JSON e CSV.
